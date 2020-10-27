@@ -1,5 +1,6 @@
 # Python Script for Tracking Health by logging their Diet and Exercise
 def getdate():
+    #Get the time stamp for the log entry
     import datetime
     return datetime.datetime.now()
 while True:
