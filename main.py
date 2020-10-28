@@ -38,3 +38,7 @@ while True:
                 print("Invalid Choice")
         else:
             print("Invalid Choice")
+    ans = int(input("Do you want to Continue?\n1. Yes\n2. No"))
+    if ans == 0:
+        break
+              
