@@ -41,4 +41,5 @@ while True:
     ans = int(input("Do you want to Continue?\n1. Yes\n2. No"))
     if ans == 0:
         break
-              
+    else:
+        continue
