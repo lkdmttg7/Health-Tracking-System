@@ -4,6 +4,7 @@ def getdate():
     import datetime
     return datetime.datetime.now()
 while True:
+    #Run Loop until user exits
     client = int(input("Enter the Number corresponding to the Client Name:\n1. John\n2. Smith\n3. Amy\n"))
     log_or_retrieve = int(input("Do you want to log or retrieve the Data:\n1. Log\n2. Retrieve\n"))
     f_or_e = int(input("Select Food or Exercise:\n1. Food\n2. Exercise\n"))
